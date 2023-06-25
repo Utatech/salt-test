@@ -46,25 +46,25 @@ function Header() {
         >
           <a
             href="#"
-            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400 mr-4"
+            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-[#AC6141] mr-4"
           >
             Home
           </a>
           <a
             href="#who-we-are"
-            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400 mr-4"
+            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-[#AC6141] mr-4"
           >
             Who we are
           </a>
           <a
             href="#core"
-            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400 mr-4"
+            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-[#AC6141] mr-4"
           >
             Our core values
           </a>
           <a
             href="#perks"
-            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400"
+            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-[#AC6141]"
           >
             The Perks
           </a>
