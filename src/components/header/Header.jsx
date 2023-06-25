@@ -1,5 +1,4 @@
 import logoTopImage from "/logo-top.png";
-import "../../App.css";
 import { useState } from "react";
 
 function Header() {
@@ -11,7 +10,9 @@ function Header() {
   return (
     <>
       <div className="flex justify-between text-primary font-bold p-3">
-        <img src={logoTopImage} alt="logo-top" />
+        <a href="/">
+          <img src={logoTopImage} alt="logo-top" className="cursor-pointer" />
+        </a>
         <button
           type="button"
           onClick={toggleMobileMenu}
@@ -45,25 +46,25 @@ function Header() {
         >
           <a
             href="#"
-            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-white mr-4"
+            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400 mr-4"
           >
             Home
           </a>
           <a
             href="#"
-            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-white mr-4"
+            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400 mr-4"
           >
             Who we are
           </a>
           <a
             href="#"
-            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-white mr-4"
+            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400 mr-4"
           >
             Our core values
           </a>
           <a
             href="#"
-            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-white"
+            className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400"
           >
             About us
           </a>

@@ -3,7 +3,6 @@ import backgroundImage from "/background-image-large.png";
 import rightImage from "/right.png";
 import leftImage from "/left.png";
 import scrollImage from "/Scroll.png";
-import "../../App.css";
 
 function Banner() {
   return (

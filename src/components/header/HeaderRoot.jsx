@@ -2,7 +2,6 @@ import workingSmall from "/working-small.png";
 import iconOne from "/icon1.png";
 import iconTwo from "/icon2.png";
 import iconThree from "/icon3.png";
-import "../../App.css";
 import Header from "./Header";
 import Banner from "./Banner";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";

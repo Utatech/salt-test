@@ -1,4 +1,3 @@
-import "./App.css";
 import HeaderRoot from "./components/header/HeaderRoot";
 
 function App() {
