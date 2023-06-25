@@ -14,7 +14,7 @@ function HeaderRoot() {
     <>
       <Header />
       <Banner />
-      <div className="md:p-24 p-5">
+      <div className="md:p-24 md:pt-5 p-5">
         <div className="flex flex-col items-start pt-5">
           <span id="who-we-are" className="text-4xl text-primary">
             Who we are
