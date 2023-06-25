@@ -1,10 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
 #root {
   padding: 0;
   max-width: none;
   overflow: hidden !important;
+  text-align: center;
 }
 .text-primary {
   color: #4097db;

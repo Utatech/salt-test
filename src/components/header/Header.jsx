@@ -51,22 +51,22 @@ function Header() {
             Home
           </a>
           <a
-            href="#"
+            href="#who-we-are"
             className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400 mr-4"
           >
             Who we are
           </a>
           <a
-            href="#"
+            href="#core"
             className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400 mr-4"
           >
             Our core values
           </a>
           <a
-            href="#"
+            href="#perks"
             className="block mt-4 md:inline-block md:mt-0 text-primary hover:text-red-400"
           >
-            About us
+            The Perks
           </a>
         </div>
       </div>

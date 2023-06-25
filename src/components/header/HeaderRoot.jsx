@@ -16,7 +16,9 @@ function HeaderRoot() {
       <Banner />
       <div className="md:p-24 p-5">
         <div className="flex flex-col items-start pt-5">
-          <span className="text-4xl text-primary">Who we are</span>
+          <span id="who-we-are" className="text-4xl text-primary">
+            Who we are
+          </span>
           <span className="pt-3">Technology Company</span>
           <span className="pt-1 text-left text-gray-500">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
@@ -43,7 +45,9 @@ function HeaderRoot() {
           </div>
         </div>
         <div className="flex flex-col items-start pt-10">
-          <span className="text-4xl text-primary">Our Core Values</span>
+          <span id="core" className="text-4xl text-primary">
+            Our Core Values
+          </span>
           <span className="pt-1 text-left text-gray-500">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
             voluptatem perferendis sequi repellendus possimus officiis ipsum
@@ -106,7 +110,10 @@ function HeaderRoot() {
       </div>
       <div className="bg-primary p-10">
         <div className="bg-white flex flex-col p-5">
-          <span className="uppercase text-left text-primary text-2xl">
+          <span
+            id="perks"
+            className="uppercase text-left text-primary text-2xl"
+          >
             Our speciality
           </span>
           <span className="text-left pt-2 text-gray-600">
