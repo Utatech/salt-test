@@ -108,7 +108,7 @@ function HeaderRoot() {
           <img src={workingSmall} alt="working" className="md:w-1/2" />
         </div>
       </div>
-      <div className="bg-primary p-10">
+      <div className="bg-primary p-5 md:p-10">
         <div className="bg-white flex flex-col p-5">
           <span
             id="perks"
