@@ -16,14 +16,30 @@ function Footer() {
           </div>
         </div>
         <div className="mt-5 p-3 md:flex hidden justify-center gap-3">
-          <span className="capitalize font-bold text-white">Who we are | </span>
-          <span className="capitalize font-bold text-white">Our Values | </span>
-          <span className="capitalize font-bold text-white">The Perks</span>
+          <a href="#who-we-are">
+            <span className="capitalize font-bold text-white">
+              Who we are |
+            </span>
+          </a>
+          <a href="#core">
+            <span className="capitalize font-bold text-white">
+              Our Values |
+            </span>
+          </a>
+          <a href="#perks">
+            <span className="capitalize font-bold text-white">The Perks</span>
+          </a>
         </div>
         <div className="mt-5 p-3 pl-0 md:hidden flex flex-col text-left justify-center gap-3">
-          <span className="capitalize font-bold text-white">Who we are</span>
-          <span className="capitalize font-bold text-white">Our Values</span>
-          <span className="capitalize font-bold text-white">The Perks</span>
+          <a href="#who-we-are">
+            <span className="capitalize font-bold text-white">Who we are</span>
+          </a>
+          <a href="#core">
+            <span className="capitalize font-bold text-white">Our Values</span>
+          </a>
+          <a href="#perks">
+            <span className="capitalize font-bold text-white">The Perks</span>
+          </a>
         </div>
       </div>
     </div>
